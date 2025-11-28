@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\cat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cat Deodorant Powder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Cat Deodorant Powder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charco's Beef Dog Treats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Charco's Beef Dog Treats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charco's Original Dog Treats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Charco's Original Dog Treats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cosi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\cosi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customericon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\customericon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dr. Healmedix Hepatic 1.5kg Dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Dr. Healmedix Hepatic 1.5kg Dog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fipronilspray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\fipronilspray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Furfect Soap Biosulfur+Madre de cacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Furfect Soap Biosulfur+Madre de cacao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEPATOSURE Sorbitol Inositol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HEPATOSURE Sorbitol Inositol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kitekat Wet Cat Food Chicken and Salmon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Kitekat Wet Cat Food Chicken and Salmon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kitekat Wet Cat Food Chicken and Tuna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Kitekat Wet Cat Food Chicken and Tuna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lc vit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\lc vit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Madre Bar Soup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Madre Bar Soup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mondex Water Soluble Powder 340g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mondex Water Soluble Powder 340g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nutripe Dog Food Beef And Green Tripe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Nutripe Dog Food Beef And Green Tripe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nutripe Lamb and Green Tripe Pure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Nutripe Lamb and Green Tripe Pure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="papi cologne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\papi cologne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Papi Groom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Papi Groom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pedigree Adult Beef in Gravy Wet Dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Pedigree Adult Beef in Gravy Wet Dog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pedigree DENTASTIX Daily oral care" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Pedigree DENTASTIX Daily oral care.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pedigree Puppy Chicken Chunks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Pedigree Puppy Chicken Chunks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PEDIGREE PUPPY WET DOG FOOD BEEF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PEDIGREE PUPPY WET DOG FOOD BEEF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Persian Kitten Dry Cat Food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Persian Kitten Dry Cat Food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Petdelyte Oral Solution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Petdelyte Oral Solution.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Canin Breed Health Nutrition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Canin Breed Health Nutrition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Canin Hairball Care" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Canin Hairball Care.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Canin Hepatic Adult Wet Dog Food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Canin Hepatic Adult Wet Dog Food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Canin Recovery for Dogs and Cats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Canin Recovery for Dogs and Cats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Canin Renal Can Wet Food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Canin Renal Can Wet Food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Canin Veterinary Canine Urinary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Canin Veterinary Canine Urinary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Canin Veterinary Gastrointestinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Canin Veterinary Gastrointestinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Tail ear Cleanser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Tail ear Cleanser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Tail Essentials Madre de Cacao dog soup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Tail Essentials Madre de Cacao dog soup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Tail Essentials Madre de Tutti Frutiepng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Tail Essentials Madre de Tutti Frutiepng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Tail Shampoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Tail Shampoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Royal Tail Sweet Talk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Royal Tail Sweet Talk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHEBA WET CAT FOOD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SHEBA WET CAT FOOD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlicesGravy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SlicesGravy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Special Delight Tuna and Ocean Fish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Special Delight Tuna and Ocean Fish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Special Delight Tuna and Salmon Mousse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Special Delight Tuna and Salmon Mousse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Specialbeef-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Specialbeef-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toothpaste Chicken Flavor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Toothpaste Chicken Flavor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toothpaste Orange Flavor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Toothpaste Orange Flavor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toothpaste with Beef Flavor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Toothpaste with Beef Flavor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toothpaste with Mint Flavor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Toothpaste with Mint Flavor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tuna Cat Food Pouch for Adult" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Tuna Cat Food Pouch for Adult.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\user-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Value Meal Dog food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Value Meal Dog food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vitality Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vitality Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vitality High Energy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vitality High Energy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vitality Valuemeal Dog Food Grain Free" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Vitality Valuemeal Dog Food Grain Free.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whiskas Junior Mackerel Wet Cat Food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Whiskas Junior Mackerel Wet Cat Food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whiskas Junior Tuna Wet Cat Food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Whiskas Junior Tuna Wet Cat Food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wound Spray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Wound Spray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xavier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\xavier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
